@@ -25,3 +25,58 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card {
+  margin: 10px;
+  text-align: left;
+  background-color: #ffff;
+  width: 160px; 
+  height: 250px; 
+  transition: box-shadow 0.3s ease ,; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+
+
+ion-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black; 
+}
+
+ion-img {
+  height: 150px;
+  object-fit: contain;  
+}
+
+ion-toolbar {
+  --background: #490066; 
+  --color: #ffffff; 
+}
+
+
+
+ion-item {
+  --background: #f0f0f0; 
+  --border-color: #6200ea; 
+  --color: #6200ea; 
+  --highlight-color-focused: #6200ea; 
+  --highlight-color-valid: #6200ea; 
+  border-radius: 8px;
+  margin: 10px;
+}
+
+
+ion-select {
+  --color: #6200ea; 
+  --placeholder-color: #6200ea; 
+}
+
+
+ion-select-option {
+  --color: #6200ea; 
+}
+
+
